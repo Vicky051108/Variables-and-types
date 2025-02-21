@@ -12,6 +12,9 @@ public class MusicBox {
     public String songMusicLabel;
     public int noAds;
 
+
+    
+
     //Constructor
     public MusicBox(String songID, char premiumSong, String title, String artists, String Album, String genre, String producer, String label) {
         this.songID = songID;
