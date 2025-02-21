@@ -37,10 +37,10 @@ public class MusicBox {
     public char getPremiumSong() {
         return isSongPremium;
     }
-    public string getSongAlbum(){
+    public String getSongAlbum(){
         return songAlbum;
     }
-    public string getSongProducer(){
+    public String getSongProducer(){
         return songProducer;
     }
 

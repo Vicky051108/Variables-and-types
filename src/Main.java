@@ -7,6 +7,18 @@ public class Main{
         System.out.println("Now playing the song");
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
         
+        MusicBox mbox2 = new MusicBox("T78HJ91", 'N', "Sunshine", "Aurora", 
+            "The bright side", "Pop", "Star Records", "Melody Lane");
+
+        System.out.println("Now playing the second song");
+        mbox2.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1); // ads 参数设置为 1
+    }
+
+        
+        
+        
+        
+        
         // --- TODO
 
         /* Repeat the above code to create another object  
@@ -18,7 +30,7 @@ public class Main{
         
 
     }
-}
+
 
 
 
